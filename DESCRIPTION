@@ -1,0 +1,15 @@
+Package: gkchestertonr
+Title: G.K. Chesterton's Complete Novels
+Version: 0.1.0
+Authors@R: person("Pasquale", "Dente", email = "pasqui.dente@gmail.com", role = c("aut", "cre"))
+Description: Full texts for G.K. Chesterton's completed works, ready for text
+    analysis. These books are "", "".
+URL: 
+BugReports: /issues
+Depends: R (>= 3.1.2)
+Suggests: dplyr,
+    testthat
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 6.1.1
+Encoding: UTF-8
