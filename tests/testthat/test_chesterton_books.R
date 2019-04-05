@@ -10,15 +10,6 @@ test_that("factor order is correct", {
         expect_equal(levels(d$book)[2], "Orthodoxy")
 })
 
-test_that("get_book is correct", {
-        orthodoxy <- gutenberg_download(130)$text
-        orthodoxy <- orthodoxy[6:length(orthodoxy)]
-        
-        expect_equal(length(orthodoxy),
-                     5839
-                     )
-})
-
 test_that("tidy frame for Chesterton books is right", {
         
         d <- chesterton_books() %>%
