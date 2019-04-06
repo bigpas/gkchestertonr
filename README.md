@@ -1,5 +1,7 @@
 # gkchestertonr <img src="tools/logo.png" align="right"/>
 
+[![Build Status](https://travis-ci.org/bigpas/gkchestertonr.svg?branch=master)](https://travis-ci.org/bigpas/gkchestertonr)
+
 ## An R Package for a selection of G.K. Chesterton's books
 
 > "A good novel tells us the truth about its hero;
