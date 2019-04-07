@@ -2,26 +2,31 @@
 
 library(gutenbergr)
 
-get_book <- function(gutenber_ebook_num, title_line, tail_blank = 0) {
-        #update: before and after?
+get_book <- function(gutenber_ebook_num, title_line, b1=NULL, b2=NULL, tail_blank = 0) {
+        
         book <- gutenberg_download(gutenber_ebook_num)[['text']]
-        book[title_line:length(book) - tail_blank]
+        if(!is.null(b1) & !is.null(b2)){
+                return(c(book[title_line:b1], book[b2:length(book) - tail_blank]))                
+        } else {
+                return(book[title_line:length(book) - tail_blank])
+        }
+        
 }
 
 
 orthodoxy            <- get_book(gutenber_ebook_num = 130, title_line = 6)
-themanwhowasthursday <- get_book(gutenber_ebook_num = 1695, title_line = 0)
-heretics             <- get_book(gutenber_ebook_num = 470, title_line = 84)
-themanwhoknewtoomuch <- get_book(gutenber_ebook_num = 1720, title_line = 14)
+themanwhowasthursday <- get_book(gutenber_ebook_num = 1695, title_line = 1)
+heretics             <- get_book(gutenber_ebook_num = 470, title_line = 1, b1 = 11, b2 = 84)
+themanwhoknewtoomuch <- get_book(gutenber_ebook_num = 1720, title_line = 8)
 
-thenapoleonofnothinghill <- get_book(gutenber_ebook_num = 20058, title_line = 40)
-manalive                 <- get_book(gutenber_ebook_num = 1718, title_line = 49)
-eugenicsandotherevils    <- get_book(25308, title_line = 19)
-thenewjerusalem          <- get_book(13468, 1)
+thenapoleonofnothinghill <- get_book(gutenber_ebook_num = 20058, title_line = 13, b1=20, b2=39)
+manalive                 <- get_book(gutenber_ebook_num = 1718, title_line = 10, b1=12, b2=48)
+eugenicsandotherevils    <- get_book(25308, title_line = 19, b1=20, b2=39)
+thenewjerusalem          <- get_book(13468, 1, b1=6, b2=12)
 
-whatswrongwiththeworld   <- get_book(gutenber_ebook_num = 1717, title_line = 76)
-theballadofthewhitehorse <- get_book(gutenber_ebook_num = 1719, title_line = 0)
-ashorthistoryofengland   <- get_book(gutenber_ebook_num = 20897, title_line = 25)
+whatswrongwiththeworld   <- get_book(gutenber_ebook_num = 1717, title_line = 1)
+theballadofthewhitehorse <- get_book(gutenber_ebook_num = 1719, title_line = 1)
+ashorthistoryofengland   <- get_book(gutenber_ebook_num = 20897, title_line = 1, b1=6, b2=24)
 
 devtools::use_data(themanwhowasthursday, overwrite = TRUE)
 devtools::use_data(orthodoxy, overwrite = TRUE)
