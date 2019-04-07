@@ -35,7 +35,7 @@ chesterton_books <- function(){
                 "The Napoleon of Nothing Hill" = gkchestertonr::thenapoleonofnothinghill,
                 "Eugenics and other Evils" = gkchestertonr::eugenicsandotherevils,
                 "The Ballad of the White Horse" = gkchestertonr::theballadofthewhitehorse,
-                "A Short Story of England" = gkchestertonr::ashortstoryofengland
+                "A Short History of England" = gkchestertonr::ashortstoryofengland
         )
        ret <- data.frame(text = unlist(books, use.names = FALSE), 
                          stringsAsFactors = FALSE)
