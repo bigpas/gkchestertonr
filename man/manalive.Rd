@@ -6,13 +6,14 @@
 \title{The text of G.K. Chesterton's novel "Man Alive"}
 \format{A character vector with xxx elements}
 \source{
-\url{http://www.gutenberg.org/ebooks/XXX}
+\url{http://www.gutenberg.org/ebooks/1718}
 }
 \usage{
 manalive
 }
 \description{
-A dataset containing the text of G.K. Chesterton's 1814 novel "Man Alive". The UTF-8 plain text was sourced from Project Gutenberg
+A dataset containing the text of G.K. Chesterton's 1912 novel "Man Alive". 
+The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of up to about 70 characters each.
 (Some elements are blank.)
 }

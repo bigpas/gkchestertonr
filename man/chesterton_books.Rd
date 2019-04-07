@@ -10,7 +10,7 @@ chesterton_books()
 A data frame with two columns: \code{text} and \code{book}
 }
 \description{
-Returns a tidy data frame of G.K. Chesterton's 6 completed, published novels with 
+Returns a tidy data frame of G.K. Chesterton's completed and published works with 
 two columns: \code{text}, which contains the text of the novels divided into 
 elements of up to about 70 characters each, and \code{book}, which contains the titles of
 the novels as a factor in order of publication.

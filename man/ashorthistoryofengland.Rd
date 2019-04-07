@@ -3,17 +3,18 @@
 \docType{data}
 \name{ashorthistoryofengland}
 \alias{ashorthistoryofengland}
-\title{The text of G.K. Chesterton's novel "A Short History of England"}
+\title{The text of G.K. Chesterton's "A Short History of England"}
 \format{A character vector with xxx elements}
 \source{
-\url{http://www.gutenberg.org/ebooks/xxx}
+\url{http://www.gutenberg.org/ebooks/20897}
 }
 \usage{
 ashorthistoryofengland
 }
 \description{
-A dataset containing the text of G.K. Chesterton's novel "", 
-published posthumously in 1818.
+A dataset containing the text of G.K. Chesterton's 
+"A Short History of England", 
+published in 1917.
 The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of up to about 70 characters each.
 (Some elements are blank.)

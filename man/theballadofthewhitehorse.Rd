@@ -3,17 +3,17 @@
 \docType{data}
 \name{theballadofthewhitehorse}
 \alias{theballadofthewhitehorse}
-\title{The text of G.K. Chesterton's novel ""}
+\title{The text of G.K. Chesterton's "The Ballad of the White Horse"}
 \format{A character vector with xxx elements}
 \source{
-\url{http://www.gutenberg.org/ebooks/xxx}
+\url{http://www.gutenberg.org/ebooks/1719}
 }
 \usage{
 theballadofthewhitehorse
 }
 \description{
-A dataset containing the text of G.K. Chesterton's novel "", 
-published posthumously in 1818.
+A dataset containing the text of G.K. Chesterton's  
+"The Ballad of the White Horse", published in 1911.
 The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of up to about 70 characters each.
 (Some elements are blank.)

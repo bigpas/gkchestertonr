@@ -3,17 +3,18 @@
 \docType{data}
 \name{themanwhowasthursday}
 \alias{themanwhowasthursday}
-\title{The text of G.K. Chesterton's novel "The Man Who Was Thursday"}
+\title{The text of G.K. Chesterton's novel The Man Who Was Thursday: A Nightmare}
 \format{A character vector with xxx elements}
 \source{
-\url{http://www.gutenberg.org/ebooks/xxx}
+\url{http://www.gutenberg.org/ebooks/1695}
 }
 \usage{
 themanwhowasthursday
 }
 \description{
-A dataset containing the text of G.K. Chesterton's novel "The Man Who Was Thursday", 
-published posthumously in 1818.
+A dataset containing the text of G.K. Chesterton's novel 
+"The Man Who Was Thursday: A Nightmare", 
+first published in 1908
 The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of up to about 70 characters each.
 (Some elements are blank.)

@@ -6,14 +6,16 @@
 \title{The text of G.K. Chesterton's novel "What's Wrong with the World"}
 \format{A character vector with xxx elements}
 \source{
-\url{http://www.gutenberg.org/ebooks/xxx}
+\url{http://www.gutenberg.org/ebooks/1717}
 }
 \usage{
 whatswrongwiththeworld
 }
 \description{
-A dataset containing the text of G.K. Chesterton's novel "What's Wrong with the World", 
-published posthumously in 1818.
+A dataset containing the text of G.K. Chesterton's collection of essays 
+"What's Wrong with the World", published in 1910.
+A collection of classic essays by the inimitable G.K. Chesterton, 
+exploring a variety of topics.
 The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of up to about 70 characters each.
 (Some elements are blank.)

@@ -3,17 +3,19 @@
 \docType{data}
 \name{heretics}
 \alias{heretics}
-\title{The text of G.K. Chesterton's novel "Heretics"}
+\title{The text of G.K. Chesterton's "Heretics"}
 \format{A character vector with xxx elements}
 \source{
-\url{http://www.gutenberg.org/ebooks/130}
+\url{http://www.gutenberg.org/ebooks/470}
 }
 \usage{
 heretics
 }
 \description{
-A dataset containing the text of G.K. Chesterton's 1811 novel "Sense and 
-Sensibility". The UTF-8 plain text was sourced from Project Gutenberg
+A dataset containing the text of Heretics.
+It is a collection of 20 essays originally published by 
+G.K. Chesterton in 1905. 
+The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of up to about 70 characters each.
 (Some elements are blank.)
 }

@@ -3,17 +3,24 @@
 \docType{data}
 \name{orthodoxy}
 \alias{orthodoxy}
-\title{The text of G.K. Chesterton's novel "Orthodoxy"}
+\title{The text of G.K. Chesterton's "Orthodoxy"}
 \format{A character vector with xxx elements}
 \source{
-\url{http://www.gutenberg.org/ebooks/470}
+\url{http://www.gutenberg.org/ebooks/130}
 }
 \usage{
 orthodoxy
 }
 \description{
-A dataset containing the text of G.K. Chesterton's 1813 novel "Pride and 
-Prejudice". The UTF-8 plain text was sourced from Project Gutenberg
+A dataset containing the text of G.K. Chesterton's 1908, 
+a classic of Christian apologetics. 
+The book was written when Chesterton was an Anglican. 
+14 years later he converted to Catholicism. 
+Chesterton chose the title, Orthodoxy, 
+to focus instead on the plainness of the Apostles' Creed.
+}
+\details{
+The UTF-8 plain text was sourced from Project Gutenberg
 and is divided into elements of up to about 70 characters each.
 (Some elements are blank.)
 }
