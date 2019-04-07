@@ -17,7 +17,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/470}
-#' @format A character vector with xxx elements
+#' @format A character vector with 5630 elements
 "heretics"
 
 #' The text of G.K. Chesterton's "Orthodoxy"
@@ -34,7 +34,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/130}
-#' @format A character vector with xxx elements
+#' @format A character vector with 5839 elements
 "orthodoxy"
 
 #' The text of G.K. Chesterton's novel "Man Alive"
@@ -45,18 +45,18 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/1718}
-#' @format A character vector with xxx elements
+#' @format A character vector with 6336 elements
 "manalive"
 
-#' The text of G.K. Chesterton's novel ""
+#' The text of G.K. Chesterton's novel "The New Jerusalem"
 #'
-#' A dataset containing the text of G.K. Chesterton's 1815 novel "Emma".
+#' A dataset containing the text of G.K. Chesterton's "The New Jerusalem".
 #' The UTF-8 plain text was sourced from Project Gutenberg
 #' and is divided into elements of up to about 70 characters each. 
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/158}
-#' @format A character vector with xxx elements
+#' @format A character vector with 8377 elements
 "thenewjerusalem"
 
 #' The text of G.K. Chesterton's novel The Man Who Was Thursday: A Nightmare
@@ -69,7 +69,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/1695}
-#' @format A character vector with xxx elements
+#' @format A character vector with 6462 elements
 "themanwhowasthursday"
 
 #' The text of G.K. Chesterton's novel "What's Wrong with the World"
@@ -83,7 +83,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/1717}
-#' @format A character vector with xxx elements
+#' @format A character vector with 11076 elements
 "whatswrongwiththeworld"
 
 #' The text of G.K. Chesterton's novel "The Napoleon of Nothing Hill"
@@ -96,7 +96,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/20058}
-#' @format A character vector with xxx elements
+#' @format A character vector with 6409 elements
 "thenapoleonofnothinghill"
 
 #' The text of G.K. Chesterton's "Eugenics and other Evils"
@@ -108,7 +108,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/25308}
-#' @format A character vector with xxx elements
+#' @format A character vector with 4817 elements
 "eugenicsandotherevils"
 
 #' The text of G.K. Chesterton's "A Short History of England"
@@ -121,7 +121,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/20897}
-#' @format A character vector with xxx elements
+#' @format A character vector with 5367 elements
 "ashorthistoryofengland"
 
 #' The text of G.K. Chesterton's "The Man Who Knew too much"
@@ -134,7 +134,7 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/1720}
-#' @format A character vector with xxx elements
+#' @format A character vector with 6449 elements
 "themanwhoknewtoomuch"
 
 #' The text of G.K. Chesterton's "The Ballad of the White Horse"
@@ -146,5 +146,5 @@ NULL
 #' (Some elements are blank.)
 #'
 #' @source \url{http://www.gutenberg.org/ebooks/1719}
-#' @format A character vector with xxx elements
+#' @format A character vector with 3341 elements
 "theballadofthewhitehorse"
